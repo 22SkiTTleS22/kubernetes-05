@@ -1,9 +1,9 @@
 Задание 1. Volume: обмен данными между контейнерами в поде
 Манифесты:
 containers-data-exchange.yaml
-Скриншоты:
-```bash
+
 описание пода с контейнерами (kubectl describe pods data-exchange)
+```bash
 kubectl describe pods data-exchange
 Name:             data-exchange-6db4cf4b48-vrdkm
 Namespace:        default
@@ -89,7 +89,9 @@ Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists fo
 Задание 2. PV, PVC
 Манифесты:
 pv-pvc.yaml
+
 Скриншоты:
+
 2.
 <img width="1697" height="306" alt="image" src="https://github.com/user-attachments/assets/dfe4f6bc-34ea-4737-8e51-bcc3fdeeac82" />
 3.
