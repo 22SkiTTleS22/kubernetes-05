@@ -1,7 +1,6 @@
 Задание 1. Volume: обмен данными между контейнерами в поде
 Манифесты:
-containers-data-exchange.yaml
-
+[containers-data-exchange.yaml](https://github.com/22SkiTTleS22/kubernetes-05/blob/main/containers-data-exchange.yaml)
 описание пода с контейнерами (kubectl describe pods data-exchange)
 ```bash
 kubectl describe pods data-exchange
@@ -88,7 +87,7 @@ Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists fo
 
 Задание 2. PV, PVC
 Манифесты:
-pv-pvc.yaml
+[pv-pvc.yaml](https://github.com/22SkiTTleS22/kubernetes-05/blob/main/pv-pvc.yaml)
 
 Скриншоты:
 
@@ -109,7 +108,7 @@ PV перешёл в статус Released, но не удалился, так �
 
 Задание 3. StorageClass
 Манифесты:
-sc.yaml
+[sc.yaml](https://github.com/22SkiTTleS22/kubernetes-05/blob/main/sc.yaml)
 
 Скриншоты:
 
