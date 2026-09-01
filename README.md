@@ -85,6 +85,7 @@ Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists fo
 ```
 
 <img width="1700" height="316" alt="image" src="https://github.com/user-attachments/assets/49877dce-9029-41e8-9bf9-6d48540e81b8" />
+
 **Задание 2. PV, PVC**
 
 [pv-pvc.yaml](https://github.com/22SkiTTleS22/kubernetes-05/blob/main/pv-pvc.yaml)
